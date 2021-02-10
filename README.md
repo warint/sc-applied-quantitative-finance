@@ -21,7 +21,7 @@ HBAP course
 
 - <https://home.tpq.io/media/yjh_py4fi_2nd_excerpt.pdf>
 
-## Module 2
+## Module 2's resources
 
 ### Classification models in Python
 
