@@ -25,15 +25,13 @@ HBAP course
 
 ### Classification models in Python
 
-The following link covers:
+The following link <https://predictivehacks.com/decision-boundary-in-python/> covers:
 - logistic regression
 - decision tree
 - random forest
 - SVM
 - Naive Bayes
 - Neural network
-
-- <https://predictivehacks.com/decision-boundary-in-python/>
 
 ### Classification and ensemble methods in Python
 
