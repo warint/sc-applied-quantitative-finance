@@ -17,3 +17,8 @@ The following link covers:
 ## Regression with stock market data in Python
 
 - <https://predictivehacks.com/stocks-market-beta-with-rolling-regression/>
+
+## Time-series in Python
+
+<https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html>
+
