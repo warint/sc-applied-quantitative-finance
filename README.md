@@ -43,5 +43,6 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 ### Time-series in Python
 
-<https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html>
+- <https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html>
 
+- <https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4>
