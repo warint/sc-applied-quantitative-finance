@@ -46,3 +46,11 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 - <https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html>
 
 - <https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4>
+
+### Time-series in R
+
+- <https://robjhyndman.com/hyndsight/tscv/>
+
+- <https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html>
+
+- <https://bookdown.org/singh_pratap_tejendra/intro_time_series_r/>
