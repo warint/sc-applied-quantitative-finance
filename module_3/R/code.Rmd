@@ -1,0 +1,31 @@
+# Loading the stocks
+
+```{r, echo = FALSE}
+# Loading package
+library(quantmod)
+library(PerformanceAnalytics)
+
+# Get list of stock exchange symbols
+symbols <- stockSymbols()
+
+# Access financial information on Apple and Microsoft stocks
+
+myStocks <-lapply(c("AAPL", "GOOG", "IBM", "MSFT"), function(x) {getSymbols(x, 
+                                                 from = "2021-01-04", 
+                                                 to = "2021-02-14",
+                                                 periodicity = "daily",
+                                                 auto.assign=FALSE)} )
+
+
+names(myStocks) <- c("AAPL", "GOOG", "IBM", "MSFT")
+
+
+
+adjustedPrices <- data.frame(cbind(AAPL$AAPL.Adjusted, GOOG$GOOG.Adjusted, IBM$IBM.Adjusted))
+
+
+head(adjustedPrices)
+
+barChart(myStocks$AAPL, multi.col = TRUE)
+```
+
