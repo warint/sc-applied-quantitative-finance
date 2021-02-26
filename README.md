@@ -54,3 +54,11 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 - <https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html>
 
 - <https://bookdown.org/singh_pratap_tejendra/intro_time_series_r/>
+
+## Module 3's resources
+
+### Python
+
+<https://github.com/denisond/cryptocurrency_portfolio_sharpe_ratio_optimization/blob/master/cryptocurrency_portfolio_sharpe_ratio_optimization.ipynb>
+
+
