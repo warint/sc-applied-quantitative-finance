@@ -61,4 +61,9 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 <https://github.com/denisond/cryptocurrency_portfolio_sharpe_ratio_optimization/blob/master/cryptocurrency_portfolio_sharpe_ratio_optimization.ipynb>
 
+## Module 4's resources
+
+### Python
+
+<https://github.com/erykml/Python-for-Finance-Cookbook>
 
