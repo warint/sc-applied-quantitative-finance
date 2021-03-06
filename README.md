@@ -21,6 +21,15 @@ HBAP course
 
 - <https://home.tpq.io/media/yjh_py4fi_2nd_excerpt.pdf>
 
+## Module 1's resources
+
+### Python
+
+- Predicting stock price <https://towardsdatascience.com/python-python-for-finance-stock-price-trend-analysis-9111afc29259>
+
+### R
+
+ 
 ## Module 2's resources
 
 ### Classification models in Python
