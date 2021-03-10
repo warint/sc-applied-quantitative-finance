@@ -58,6 +58,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 ### Time-series in R
 
+- <https://blogs.rstudio.com/ai/posts/2021-03-10-forecasting-time-series-with-torch_1/?mkt_tok=NzA5LU5YTi03MDYAAAF7u4RAzMdnNIWHOoGLAELivntfOZDrUdjVT0oohfdRrVHy32zXyKj_5ltBDjKYiiiFGBWhXSmZdKvak6pRc51ucncVykzrHSSzNGkQuJuNLA>
+
 - <https://robjhyndman.com/hyndsight/tscv/>
 
 - <https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html>
