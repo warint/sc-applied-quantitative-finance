@@ -76,7 +76,11 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 ### Python
 
-<https://github.com/erykml/Python-for-Finance-Cookbook>
+- <https://github.com/erykml/Python-for-Finance-Cookbook>
+
+- <https://github.com/scottandersen23/Medium_Blog/tree/main/Articles>
 
 ### R
+
+- <https://www.msperlin.com/blog/>
 
