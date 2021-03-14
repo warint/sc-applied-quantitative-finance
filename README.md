@@ -1,4 +1,5 @@
 # sc-applied-quantitative-finance
+
 HBAP course
 
 ## General resources
@@ -55,6 +56,10 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 - <https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html>
 
 - <https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4>
+
+### Automated Technical Analysis in Python
+
+<https://medium.com/@farhadmalik/automating-stock-investing-technical-analysis-with-python-81c669e360b2?source=email-e1aecd04cbf7-1615707264629-digest.reader------1-83------------------93b98760_4ac6_445c_9dfc_ca1325f24a32-1-701d36d9_e0ff_495a_98c1_0a56af2253f4----&sectionName=top>
 
 ### Time-series in R
 
