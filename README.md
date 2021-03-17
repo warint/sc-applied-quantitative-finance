@@ -77,6 +77,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 <https://github.com/denisond/cryptocurrency_portfolio_sharpe_ratio_optimization/blob/master/cryptocurrency_portfolio_sharpe_ratio_optimization.ipynb>
 
+<https://medium.com/analytics-vidhya/python-will-make-you-rich-in-the-stock-market-b6dfaad711e7>
+
 ## Module 4's resources
 
 ### Python
