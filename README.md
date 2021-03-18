@@ -28,6 +28,8 @@ HBAP course
 
 - Predicting stock price <https://towardsdatascience.com/python-python-for-finance-stock-price-trend-analysis-9111afc29259>
 
+- <https://towardsdatascience.com/data-analysis-visualization-in-finance-technical-analysis-of-stocks-using-python-269d535598e4>
+
 ### R
 
  
@@ -59,7 +61,9 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 ### Automated Technical Analysis in Python
 
-<https://medium.com/@farhadmalik/automating-stock-investing-technical-analysis-with-python-81c669e360b2?source=email-e1aecd04cbf7-1615707264629-digest.reader------1-83------------------93b98760_4ac6_445c_9dfc_ca1325f24a32-1-701d36d9_e0ff_495a_98c1_0a56af2253f4----&sectionName=top>
+- <https://medium.com/@farhadmalik/automating-stock-investing-technical-analysis-with-python-81c669e360b2?source=email-e1aecd04cbf7-1615707264629-digest.reader------1-83------------------93b98760_4ac6_445c_9dfc_ca1325f24a32-1-701d36d9_e0ff_495a_98c1_0a56af2253f4----&sectionName=top>
+
+- <https://medium.com/fintechexplained/automating-stock-investing-fundamental-analysis-with-python-f854781ee0b4>
 
 ### Time-series in R
 
