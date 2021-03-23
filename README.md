@@ -30,6 +30,8 @@ HBAP course
 
 - <https://towardsdatascience.com/data-analysis-visualization-in-finance-technical-analysis-of-stocks-using-python-269d535598e4>
 
+- Motley Fool Stock Picks <https://python.plainenglish.io/quickly-find-motley-fool-stock-picks-with-python-225729a76258>
+
 ### R
 
  
