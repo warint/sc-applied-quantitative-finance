@@ -34,6 +34,8 @@ HBAP course
 
 ### R
 
+- Changes in timeseries: <https://predictivehacks.com/detect-the-changes-in-timeseries-data/>
+
  
 ## Module 2's resources
 
