@@ -36,9 +36,6 @@ HBAP course
 
 - Changes in timeseries: <https://predictivehacks.com/detect-the-changes-in-timeseries-data/>
 
-- <https://rafael-zambrano-blog-ds.netlify.app/posts/automagic_tabs/?panelset=%25F0%259F%2591%258B-hey%21&panelset1=administraci%25C3%25B3n-p%25C3%25BAblica&panelset2=construcci%25C3%25B3n-%25F0%259F%258F%25A0>
-
- 
 ## Module 2's resources
 
 ### Classification models in Python
