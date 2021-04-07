@@ -78,6 +78,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 - <https://bookdown.org/singh_pratap_tejendra/intro_time_series_r/>
 
+- Anomaly detection: <https://towardsdatascience.com/tidy-anomaly-detection-using-r-82a0c776d523>
+
 ## Module 3's resources
 
 ### Python
@@ -97,4 +99,7 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 ### R
 
 - <https://www.msperlin.com/blog/>
+
+
+
 
