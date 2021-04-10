@@ -32,6 +32,9 @@ HBAP course
 
 - Motley Fool Stock Picks <https://python.plainenglish.io/quickly-find-motley-fool-stock-picks-with-python-225729a76258>
 
+- superperformance stocks: <https://medium.com/analytics-vidhya/super-performance-stocks-how-to-make-more-than-1-125-on-a-single-small-cap-stock-with-python-5ea3ae393791>
+
+
 ### R
 
 - Changes in timeseries: <https://predictivehacks.com/detect-the-changes-in-timeseries-data/>
