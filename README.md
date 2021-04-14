@@ -16,6 +16,8 @@ HBAP course
 
 ### Resources for finance with Python
 
+- Some principles: <https://medium.datadriveninvestor.com/how-to-find-undervalued-growth-stocks-e65f2620b589>
+
 - <https://pythonforfinance.net/>
 
 - <https://towardsdatascience.com/python-for-finance-the-complete-beginners-guide-764276d74cef>
@@ -103,7 +105,15 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 ### R
 
+- Portfolio diversification 1 <https://blog.ephorie.de/parrondos-paradox-in-finance-combine-two-losing-investments-into-a-winner>
+
 - <https://www.msperlin.com/blog/>
+
+## TL;DR
+
+### R
+
+- Backtesting options strategies <https://blog.ephorie.de/backtesting-options-strategies-with-r>
 
 
 
