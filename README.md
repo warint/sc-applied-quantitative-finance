@@ -30,6 +30,10 @@ HBAP course
 
 - Predicting stock price <https://towardsdatascience.com/python-python-for-finance-stock-price-trend-analysis-9111afc29259>
 
+- Predicting stock prices with Stocker <https://medium.datadriveninvestor.com/forecasting-stock-prices-using-stocker-66503c26307a>
+
+- Predicting stock prices with CNNs <https://medium.com/hands-on-data-science/lstms-or-cnns-for-predicting-stock-prices-2974c0c8c4ef>
+
 - <https://towardsdatascience.com/data-analysis-visualization-in-finance-technical-analysis-of-stocks-using-python-269d535598e4>
 
 - Motley Fool Stock Picks <https://python.plainenglish.io/quickly-find-motley-fool-stock-picks-with-python-225729a76258>
