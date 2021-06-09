@@ -93,6 +93,10 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 - Anomaly detection: <https://towardsdatascience.com/tidy-anomaly-detection-using-r-82a0c776d523>
 
+### Hedge funds and ETF in R
+
+- Financial X-Rays: dissect any price series with a simple payoff diagram: <https://blog.ephorie.de/financial-x-rays-dissect-any-price-series-with-a-simple-payoff-diagram>
+
 ## Module 3's resources
 
 ### Python
