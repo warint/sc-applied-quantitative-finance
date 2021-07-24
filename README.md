@@ -121,6 +121,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 - <https://www.msperlin.com/blog/>
 
+- LIBOR interest rate swap <https://kiandlee.blogspot.com/2021/07/delta-sensitivity-of-interest-rate-swap.html>
+
 ## TL;DR
 
 ### R
