@@ -1,0 +1,49 @@
+---
+title: "Portfolio Optimization"
+author: "Thierry Warin"
+date: "10/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+```{r}
+library(dplyr)
+library(timeSeries)
+library(fPortfolio)
+library(quantmod)
+symbol <- c("AAPL", "MSFT", "GOOGL", "TSLA", "NVDA")
+
+for (A in symbol) {
+  price <- getSymbols(A, from = "2019-9-1", to = "2021-8-1", auto.assign = FALSE)
+  returns <- monthlyReturn(price[,6])
+  if (A == symbol[1]) {stocks <-  returns}
+  else {stocks <-  cbind(stocks, returns)}
+}
+
+head(stocks)
+
+colnames(stocks) <- symbol
+head(stocks)
+
+rm(price, returns, A, symbol)
+
+stocks <- as.timeSeries(stocks)
+head(stocks)
+
+myportfolio <- portfolioSpec()
+
+# Some calibration: the risk free rate and my return target
+setRiskFreeRate(myportfolio) <- 0.0002
+setTargetReturn(myportfolio) <- 0.15
+myportfolio
+
+
+sharptest <- tangencyPortfolio(stocks, myportfolio)
+sharptest
+```
+
