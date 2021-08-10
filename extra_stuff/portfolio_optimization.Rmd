@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 
 
 ```{r}
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("timeSeries")) install.packages("timeSeries")
+if (!require("fPortfolio")) install.packages("fPortfolio")
+if (!require("quantmod")) install.packages("quantmod")
 library(dplyr)
 library(timeSeries)
 library(fPortfolio)
@@ -39,7 +43,8 @@ myportfolio <- portfolioSpec()
 
 # Some calibration: the risk free rate and my return target
 setRiskFreeRate(myportfolio) <- 0.0002
-setTargetReturn(myportfolio) <- 0.15
+setTargetRisk <- 0.05
+setTargetReturn(myportfolio) <- 0.20
 myportfolio
 
 
