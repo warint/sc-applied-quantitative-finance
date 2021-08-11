@@ -23,7 +23,7 @@ library(quantmod)
 symbol <- c("AAPL", "MSFT", "GOOGL", "TSLA", "NVDA")
 
 for (A in symbol) {
-  price <- getSymbols(A, from = "2019-9-1", to = "2021-8-1", auto.assign = FALSE)
+  price <- getSymbols(A, from = "2020-9-1", to = "2021-8-1", auto.assign = FALSE)
   returns <- monthlyReturn(price[,6])
   if (A == symbol[1]) {stocks <-  returns}
   else {stocks <-  cbind(stocks, returns)}
@@ -44,7 +44,7 @@ myportfolio <- portfolioSpec()
 # Some calibration: the risk free rate and my return target
 setRiskFreeRate(myportfolio) <- 0.0002
 setTargetRisk <- 0.05
-setTargetReturn(myportfolio) <- 0.20
+setTargetReturn(myportfolio) <- 0.10
 myportfolio
 
 
