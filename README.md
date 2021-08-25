@@ -123,6 +123,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 - LIBOR interest rate swap <https://kiandlee.blogspot.com/2021/07/delta-sensitivity-of-interest-rate-swap.html>
 
+- Automated stock trading using deep reinforcement learning <https://medium.com/@mariko.sawada1/automated-stock-trading-with-deep-reinforcement-learning-and-financial-data-a63286ccbe2b>
+
 ## TL;DR
 
 ### R
