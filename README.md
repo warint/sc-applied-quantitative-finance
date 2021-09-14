@@ -131,6 +131,8 @@ The following link <https://predictivehacks.com/decision-boundary-in-python/> co
 
 - Backtesting options strategies <https://blog.ephorie.de/backtesting-options-strategies-with-r>
 
+- Stealth strategies: <https://r-posts.com/nonlinear-market-forecasting-using-stealth-curves/>
+
 
 
 
