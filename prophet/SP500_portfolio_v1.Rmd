@@ -1,0 +1,89 @@
+---
+title: "Portfolio"
+author: "Th. Warin"
+date: "2023-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+library(prophet)
+library(dplyr)
+library(yfR)
+```
+
+# Stock 1: TSLA
+
+```{r}
+# set options for algorithm
+my_ticker <- 'TSLA'
+first_date <- Sys.Date() - 360
+last_date <- Sys.Date()
+
+# fetch data
+stats <- yf_get(tickers = my_ticker, 
+                first_date = first_date,
+                last_date = last_date)
+```
+
+```{r}
+
+#daily data points starting from 2014–01–0
+stats <- stats |> mutate(ds = ref_date) |> mutate(y = price_adjusted)
+#View(summary(stats))
+#plot(y ~ ds, stats, type = "l")
+```
+
+```{r}
+m <- prophet(stats, daily.seasonality=TRUE, yearly.seasonality=TRUE)
+
+future <- make_future_dataframe(m, periods = 90)
+forecast <- predict(m, future)
+
+plot(m, forecast)
+```
+
+```{r, include = FALSE}
+tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
+tail(forecast)
+
+prophet_plot_components(m, forecast)
+```
+
+# Stock 2: TD
+
+```{r}
+# set options for algorithm
+my_ticker <- 'TD'
+first_date <- Sys.Date() - 360
+last_date <- Sys.Date()
+
+# fetch data
+stats <- yf_get(tickers = my_ticker, 
+                first_date = first_date,
+                last_date = last_date)
+```
+
+```{r}
+
+#daily data points starting from 2014–01–0
+stats <- stats |> mutate(ds = ref_date) |> mutate(y = price_adjusted)
+#View(summary(stats))
+#plot(y ~ ds, stats, type = "l")
+```
+
+```{r}
+m <- prophet(stats, daily.seasonality=TRUE, yearly.seasonality=TRUE)
+
+future <- make_future_dataframe(m, periods = 90)
+forecast <- predict(m, future)
+
+plot(m, forecast)
+```
+
+```{r, include = FALSE}
+tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
+tail(forecast)
+
+prophet_plot_components(m, forecast)
+```
